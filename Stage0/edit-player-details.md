@@ -8,7 +8,7 @@ Player can make changes in photo or username or password.
 
 ### Scenario: Change player photo
 
-  Given the game is open on its homescreen
+  Given the game is open on its home screen
   And there is option to change photo
 
   When player updates different photo from current photo
