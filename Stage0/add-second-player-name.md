@@ -22,6 +22,6 @@ Opens a text box to add name of second player and updates the player name
 
   When player changes the default name in text box
   Or leaves the default name unchanged
-  And press "Ok"
+  And press continue
 
   Then update the name of the second player.
