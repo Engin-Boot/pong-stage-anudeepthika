@@ -20,6 +20,8 @@ Opens a text box to add name of second player and updates the player name
   Given the game is in progress
   And the player chose to play game in two player mode.
 
-  When player enters the changes the default name in text box
+  When player changes the default name in text box
+  Or leaves the default name unchanged
+  And press "Ok"
 
   Then update the name of the second player.
