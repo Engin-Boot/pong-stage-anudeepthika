@@ -6,12 +6,11 @@ Checks whether score is equal to maximum score.
 
 ## Acceptance Criteria
 
-### Scenario: Change player photo
+### Scenario: Check player score
 
-  Given the game is open on its home screen
-  And there is option to edit player details
+  Given the game is active
+  And the ball is moving away from the player
 
-  When player updates different photo from current photo
-  Or removes the current photo
+  When player score increases
 
-  Then change the photo of the player to new photo.
+  Then compare the current score with the maximum score.
