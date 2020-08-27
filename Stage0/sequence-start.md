@@ -41,7 +41,7 @@ if collision occurs with boundaries behind the paddle
   This updates game-state to MENU state if score is equal to maximum score.
   And continues in IN-GAME state if score is not equal to maximum score.
   
-- If game-state returns MENU state then it goes back to the Game Menu 
+- If game-state returns MENU state then it goes back to the Game Menu
 
 ## One score
 
@@ -50,4 +50,3 @@ Pong game module calls for the check-collision of ball with paddles
 And boundaries
 
 Update the score of the opposite player if there is collision with vertical boundary
-
