@@ -17,12 +17,37 @@ Initial velocity of velocity of the ball is updated to zero using Set-Ball-Veloc
 
 Five second timer is displayed before the game starts.
 
+Ball moves in a random direction.
+
 Pong game module is created which performs lot of jobs.
 
 ## Movement Initiation
 
 -describe-how-modules-interact-to-make-the-ball-move
 
+Pong game module keeps track of many operations
+
+- It updates ball movement --> To get ball position call Get-Ball-Position.
+And to update velocity call Set-Ball-Velocity
+
+- checks for the collision of ball with paddles and boundaries
+
+- updates the ball movement if collision occurs.
+
+- Updates the score of player-one and player-two,
+if collision occurs with boundaries behind the paddle
+
+- Calls check-score module to check if it is the maximum score.
+  This updates game-state to MENU state if score is equal to maximum score.
+  And continues in IN-GAME state if score is not equal to maximum score.
+  
+- If game-state returns MENU state then it goes back to the Game Menu 
+
 ## One score
 
 -describe-how-the-modules-interact-to-record-scores
+Pong game module calls for the check-collision of ball with paddles
+And boundaries
+
+Update the score of the opposite player if there is collision with vertical boundary
+
