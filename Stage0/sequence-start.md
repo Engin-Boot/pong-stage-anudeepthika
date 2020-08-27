@@ -2,8 +2,6 @@
 
 ## Startup Sequence
 
--describe-how-your-modules-interact-to-start
-
 Game menu has PLAY and EXIT options.
 
 When user selects PLAY option, game engine is triggered.
@@ -22,8 +20,6 @@ Ball moves in a random direction.
 Pong game module is created which performs lot of jobs.
 
 ## Movement Initiation
-
--describe-how-modules-interact-to-make-the-ball-move
 
 Pong game module keeps track of many operations
 
@@ -45,7 +41,6 @@ if collision occurs with boundaries behind the paddle
 
 ## One score
 
--describe-how-the-modules-interact-to-record-scores
 Pong game module calls for the check-collision of ball with paddles
 And boundaries
 
