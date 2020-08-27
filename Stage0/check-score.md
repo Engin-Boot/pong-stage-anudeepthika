@@ -25,7 +25,7 @@ And updates the game-state.
   
   Then update game-state to MENU.
 
-### Scenario: Update game-state to MENU
+### Scenario: Update game-state to IN_GAME
   
   Given the game is active
   And the score of a player is not increased
