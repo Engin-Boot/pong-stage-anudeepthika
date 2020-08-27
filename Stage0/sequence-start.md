@@ -8,7 +8,8 @@ GameMenu has PLAY and EXIT options.
 
 When user selects PLAY option, game engine is triggered.
 
-Game engine creates the instances of ball, paddle1, paddle2, scorekeeper1, scorekeeper2 and boundaries.
+Game engine creates the instances of ball, paddle1, paddle2
+Scorekeeper1, scorekeeper2 and boundaries.
 
 Ball and paddles are set to an initial position using SetBallPosition() and SetPaddleposition().
 
