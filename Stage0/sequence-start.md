@@ -4,20 +4,20 @@
 
 -describe-how-your-modules-interact-to-start
 
-GameMenu has PLAY and EXIT options.
+Game menu has PLAY and EXIT options.
 
 When user selects PLAY option, game engine is triggered.
 
-Game engine creates the instances of ball, paddle1, paddle2
-Scorekeeper1, scorekeeper2 and boundaries.
+Game engine creates the instances of ball, paddle-one, paddle-two
+Scorekeeper-one, scorekeeper-two and boundaries.
 
-Ball and paddles are set to an initial position using SetBallPosition() and SetPaddleposition().
+Ball and paddles are set to an initial position using Set-Ball-Position and Set-Paddle-Position.
 
-Initial velocity of velocity of the ball is updated to zero using SetBallVelocity().
+Initial velocity of velocity of the ball is updated to zero using Set-Ball-Velocity.
 
 Five second timer is displayed before the game starts.
 
-PongGame module is created which performs lot of jobs.
+Pong game module is created which performs lot of jobs.
 
 ## Movement Initiation
 
